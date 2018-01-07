@@ -15,5 +15,6 @@ workflow was like this:
 - docker image ls -list all images download to current file system
 - docker image pull <name> - pulls image from registry
 (Default registry is 'Docker Registry', Default tag is 'latest')
-- [winpty] docker run -it <image-name> <command-name> - runs interactive terminal based on image name. Example 'docker run -it alpine apk'
-winpty is optional, applies only for Windows environments
+- [winpty] docker run -it <image-name> <command-name> - runs interactive terminal based on image name. Example 'docker run -it alpine apk'.
+winpty is optional, applies only for Windows environments. 
+This is one-off command, after that the container is shutdown
