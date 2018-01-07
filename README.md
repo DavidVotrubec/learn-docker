@@ -17,4 +17,5 @@ workflow was like this:
 (Default registry is 'Docker Registry', Default tag is 'latest')
 - [winpty] docker run -it <image-name> <command-name> - runs interactive terminal based on image name. Example 'docker run -it alpine apk'.
 winpty is optional, applies only for Windows environments. 
-This is one-off command, after that the container is shutdown
+This is one-off command, after that the container is shutdown. 
+If you provide -it, then docker will make sure that the interactive shell is provided. Otherwise "nothing would happen". 
