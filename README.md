@@ -19,3 +19,5 @@ workflow was like this:
 winpty is optional, applies only for Windows environments. 
 This is one-off command, after that the container is shutdown. 
 If you provide -it, then docker will make sure that the interactive shell is provided. Otherwise "nothing would happen". 
+- docker ps -a - list all containers and their statuses
+-docker-compose -f <file> ps - list status of containers specified in the <file>
